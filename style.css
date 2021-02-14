@@ -1,0 +1,306 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+
+.header-container {
+  width: 1024px;
+  height: 70px;
+  margin: auto;
+}
+
+.header-container:first-child {
+  margin-right: auto;
+}
+
+.logo-image {
+  float: left;
+  height: 70px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  width: 120px;
+  font-size: 16px;
+  color: #fafafa;
+  line-height: 70px;
+  padding: 0 30px;
+}
+
+.main-contents {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.main-text {
+  padding-top: 200px;
+  color: #fafafa;
+  text-align: center;
+}
+
+.main-text h2 {
+  font-size: 64px;
+  padding-bottom: 10px;
+}
+
+.main-text p {
+  font-size: 20px;
+}
+
+.portfolio {
+  width: 100%;
+  padding: 90px 0 80px 0;
+  background-color: #eceff1;
+}
+
+.portfolio-contents {
+  width: 920px;
+  margin: auto;
+  text-align: center;
+}
+
+.title h2 {
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.title p {
+  font-size: 16px;
+  color: #000000;
+  margin: 30px 0;
+}
+
+.line {
+  width: 70px;
+  margin: auto;
+  height: 3px;
+  background-color: #ec715f;
+}
+
+.portfolio-content-items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  height: 520px;
+}
+
+.item {
+  background-size: cover;
+  background-position: center;
+  margin: 0 10px 10px 0;
+}
+.item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.portfolio-content-item1 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/sketch.jpg);
+}
+
+.portfolio-content-item2 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/websuku.png);
+}
+
+.portfolio-content-item3 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/write.jpg);
+}
+
+.portfolio-content-item4 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp.png);
+}
+
+.portfolio-content-item5 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/talk.jpg);
+}
+
+.portfolio-content-item6 {
+  width: 300px;
+  height: 250px;
+  background-image: url(img/webcamp-mother.png);
+}
+
+.feature {
+  width: 980px;
+  margin: auto;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.feature-text {
+  text-align: center;
+}
+
+.feature-contents {
+  display: flex;
+}
+
+.fci {
+  width: 320px;
+  height: auto;
+  font-size: 16px;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.fci p {
+  text-align: left;
+}
+
+.fci:last-child {
+  margin-right: 0;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.fab {
+  font-size: 60px;
+}
+
+.profile {
+  width: 100%;
+  padding: 90px 0 80px 0;
+  background-color: #eceff1;
+  text-align: center;
+}
+
+.profile-contents {
+  width: 1024px;
+  margin: auto;
+}
+
+.profile-icon {
+  background-image: url(img/my-icon.jpg);
+  border-radius: 150px;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
+.profile-introduce {
+  margin: auto;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.intro {
+  width: 512px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.introduce2 {
+  text-align: left;
+}
+
+.intro h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.skill {
+  padding-top: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  font-size: 16px;
+  background-color: #ec715f;
+  color: #fafafa;
+}
+.footer-text {
+  text-align: center;
+  line-height: 60px;
+}
+
+.contact {
+  width: 100%;
+  margin: 90px 0;
+}
+
+.contact-contents {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+.con {
+  width: 400px;
+  font-size: 20px;
+}
+
+.contact-introduce {
+  display: flex;
+}
+
+.contact1 h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.contact1 p {
+  font-size: 16px;
+}
+
+.email {
+  margin-bottom: 20px;
+}
+
+.con-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+.sns-icon {
+  width: 170px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.sns-icon i {
+  font-size: 45px;
+  margin-right: 20px;
+}
+
+.sns-icon i:last-child {
+  margin-right: 0px;
+}
+
+.left-contents {
+  width: 130px;
+  margin: 0 auto;
+  text-align: left;
+}
